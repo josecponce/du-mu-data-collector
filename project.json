@@ -1,0 +1,86 @@
+{
+  "cli": {
+    "fmtVersion": 2
+  },
+  "name": "du-mu-data-collector",
+  "description": "",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "mu-data-broadcaster": {
+      "name": "mu-data-broadcaster",
+      "type": "control",
+      "slots": {
+        "container": {
+          "name": "container",
+          "type": "itemContainer"
+        },
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        },
+        "receiver": {
+          "name": "receiver",
+          "type": "receiver"
+        },
+        "miningUnit1": {
+          "name": "miningUnit1",
+          "type": "miningUnit"
+        },
+        "miningUnit2": {
+          "name": "miningUnit2",
+          "type": "miningUnit"
+        },
+        "miningUnit3": {
+          "name": "miningUnit3",
+          "type": "miningUnit"
+        },
+        "miningUnit4": {
+          "name": "miningUnit4",
+          "type": "miningUnit"
+        },
+        "miningUnit5": {
+          "name": "miningUnit5",
+          "type": "miningUnit"
+        },
+        "miningUnit6": {
+          "name": "miningUnit6",
+          "type": "miningUnit"
+        },
+        "miningUnit7": {
+          "name": "miningUnit7",
+          "type": "miningUnit"
+        }
+      }
+    },
+    "mu-data-collector": {
+      "name": "mu-data-collector",
+      "type": "control",
+      "slots": {
+        "emitter": {
+          "name": "emitter",
+          "type": null
+        },
+        "receiver": {
+          "name": "receiver",
+          "type": "receiver"
+        },
+        "muDb": {
+          "name": "muDb",
+          "type": "databank"
+        },
+        "waypointDb": {
+          "name": "waypointDb",
+          "type": "databank"
+        }
+      }
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    }
+  }
+}
