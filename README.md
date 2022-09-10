@@ -6,11 +6,11 @@
  and [du-storage-monitoring](https://github.com/Jericho1060/du-storage-monitoring) projects. 
 
 ## Features:
-- Mining Units data collection: component (usually on a ship) automatically collects data from nearby Broadcaster units 
+- **Mining Units data collection**: component (usually on a ship) automatically collects data from nearby Broadcaster units 
  (usually around 500m but may vary depending on core sizes).
-- Sync Mode: Press Alt + 1 to switch to sync mode. Not recommended, not documented and quite buggy.
-- Show/Hide Hud: Alt + 2 to hide the hud. Also, useful to avoid key presses during flight to be interpreted by the Hud. 
-- Broadcaster Waypoints: 
+- **Sync Mode**: Press Alt + 1 to switch to sync mode. Not recommended, not documented and quite buggy.
+- **Show/Hide Hud**: Alt + 2 to hide the hud. Also, useful to avoid key presses during flight to be interpreted by the Hud. 
+- **Broadcaster Waypoints**: 
   - Store Broadcaster position:
     - Move your ship as close as possible to broadcaster.
     - Select Broadcaster from the list by using up/down/left/right keys.
@@ -42,7 +42,7 @@
     - receiver: connect by right-clicking on programming board -> "Select out plug to link ..." -> receiver
         - if you don't connect exactly this way you're in for a fun debugging session
     - databanks
-- Set the channel list of the receiver to a comma separate list of channels from all your Territory MU Broadcasters (not yet configured)
+- Set the channel list of the receiver to a comma separated list of channels from all your Territory MU Broadcasters (not yet configured)
     - E.g: if you have two MU Broadcasters on channels Mine 01 and Mine 02 then just enter "Mine 01,Mine 02"
 - Edit Programming Board parameters as needed.
 - You can now turn on the programming board and use it but won't be very interesting until you set up Broadcasters and collect some data
